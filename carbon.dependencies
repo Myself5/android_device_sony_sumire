@@ -1,0 +1,68 @@
+[
+  {
+    "remote": "carbon",
+    "repository": "CarbonROM/android_device_sony_kitakami-common-common",
+    "target_path": "device/sony/kitakami-common-common",
+    "revision": "cr-4.0"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/kernel",
+    "target_path": "kernel/sony/msm",
+    "revision": "aosp/AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/thermanager",
+    "target_path": "vendor/sony/system/thermanager",
+    "revision": "master"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/mkqcdtbootimg",
+    "target_path": "vendor/sony/system/mkqcdtbootimg",
+    "revision": "master"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/macaddrsetup",
+    "target_path": "vendor/sony/system/macaddrsetup",
+    "revision": "master"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/timekeep",
+    "target_path": "vendor/sony/system/timekeep",
+    "revision": "master"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/device-qcom-sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "master"
+  },
+  {
+    "remote": "gh",
+    "repository": "sonyxperiadev/boringssl-compat",
+    "target_path": "device/qcom/boringssl-compat",
+    "revision": "master"
+  },
+  {
+    "remote": "gh",
+    "repository": "SuperBenevolent/aosp-vendor-sony",
+    "target_path": "vendor/sony",
+    "revision": "marshmallow-mr0"
+  },
+  {
+    "remote": "gh",
+    "repository": "SuperBenevolent/aosp-vendor-qcom",
+    "target_path": "vendor/qcom",
+    "revision": "marshmallow-mr0"
+  },
+  {
+    "remote": "gh",
+    "repository": "SuperBenevolent/aosp-vendor-qcom-proprietary",
+    "target_path": "vendor/qcom/proprietary",
+    "revision": "lollipop-mr1"
+  }
+]
