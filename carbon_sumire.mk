@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/sony/msm
+TARGET_KERNEL_SOURCE := kernel/sony/msm122
 
 # Inherit AOSP Shinano common device parts
 $(call inherit-product, device/sony/sumire/aosp_e6653.mk)

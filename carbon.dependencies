@@ -8,8 +8,8 @@
   {
     "remote": "gh",
     "repository": "sonyxperiadev/kernel",
-    "target_path": "kernel/sony/msm",
-    "revision": "aosp/AU_LINUX_ANDROID_LA.BF64.1.2.1_RB1.05.00.02.019.067"
+    "target_path": "kernel/sony/msm122",
+    "revision": "aosp/LA.BF64.1.2.2_rb4.7"
   },
   {
     "remote": "gh",
