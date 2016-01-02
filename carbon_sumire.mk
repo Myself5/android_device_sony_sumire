@@ -15,6 +15,10 @@
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/sony/msm
 
+# Screen Resolution for the Bootanimation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Inherit AOSP Shinano common device parts
 $(call inherit-product, device/sony/sumire/aosp_e6653.mk)
 
