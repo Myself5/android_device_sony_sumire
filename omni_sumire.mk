@@ -19,20 +19,26 @@ TARGET_KERNEL_SOURCE := kernel/sony/msm
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+TW_THEME := portrait_hdpi
+
 # Inherit AOSP Shinano common device parts
 $(call inherit-product, device/sony/sumire/aosp_e6653.mk)
 
 # Inherit Carbon Shinano common device parts
-$(call inherit-product, device/sony/kitakami-common/device_carbon.mk)
+$(call inherit-product, device/sony/kitakami-common/device_omni.mk)
 
 # Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
+
+# Recovery
+PRODUCT_COPY_FILES += \
+    device/sony/sumire/recovery/root/etc/bootrec-device:recovery/root/etc/bootrec-device
 
 # Override Product Name for CarbonROM
-PRODUCT_NAME := carbon_sumire
+PRODUCT_NAME := omni_sumire
 PRODUCT_MODEL := Xperia Z5
 
 # Assert
