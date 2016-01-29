@@ -25,14 +25,14 @@ $(call inherit-product, device/sony/sumire/aosp_e6653.mk)
 # Inherit Carbon Shinano common device parts
 $(call inherit-product, device/sony/kitakami-common/device_carbon.mk)
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
+# Enhanced NFC
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
-# Inherit Carbon product configuration
-$(call inherit-product, vendor/carbon/config/common.mk)
+# Inherit CM common Phone stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Override Product Name for CarbonROM
-PRODUCT_NAME := carbon_sumire
+PRODUCT_NAME := cm_sumire
 PRODUCT_MODEL := Xperia Z5
 
 # Assert
